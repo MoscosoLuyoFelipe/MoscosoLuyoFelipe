@@ -1,0 +1,39 @@
+.pTop30 {
+    padding-top: 30px;
+}
+
+.pTop40 {
+    padding-top: 55px;
+}
+
+.pTop50 {
+    padding-top: 100px;
+}
+
+#footerfront {
+    text-align: center;
+}
+
+#footerback {
+    background: #007bff!important;
+    color: white;
+}
+
+#footerback a {
+    color: white;
+}
+
+.musica {
+    background-color: #007bff!important;
+    text-align: left;
+    color: azure;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#centrar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}

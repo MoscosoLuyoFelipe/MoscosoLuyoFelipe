@@ -9,43 +9,138 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Moscoso Luyo Felipe</title>
+    <title>Informacion Personal</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Moscoso Luyo" />
-    <link rel="icon" type="image/jpg" href="/Imagenes/home_logo.png">
-    <link href="Css/estilo.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css3/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="icon" href="Imagenes/wow.jpg">
+    <link rel="stylesheet" href="">
 </head>
 
-<body ref="stylesheet">
-    <header>
-        <nav>
-            <a href="/contactos.html" class="w3-bar-item w3-button">Contacto</a>
-            <a href="/sturisticos.html" class="w3-bar-item w3-button">Sitios Turisticos</a>
-            <a href="/lab01.html" class="w3-bar-item w3-button">Lab 01</a>
-        </nav>
-    </header>
-    <hr>
-    <section>
-        <article>
-            <div>
-                <h1 class="textocentrado1">Pagina Web Personal</h1>
-                <img src="/Imagenes/Moscoso.jpg" class="img1">
-                <h1 class="textocentrado1">Moscoso Luyo Felipe de Jesús</h1>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima quae, laudantium earum itaque, velit cupiditate quis ratione architecto quasi ullam repellat harum aperiam commodi aut. Perspiciatis natus ipsam repellat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius voluptate hic ipsam corrupti excepturi tempore eligendi earum obcaecati nostrum quae mollitia, qui repellendus ea totam fugit, repudiandae porro ut illum?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum totam repudiandae, consequatur ea fugit, exercitationem consectetur voluptatibus quam non rerum nam tempora modi, aperiam quasi harum rem iure voluptatum nostrum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro natus autem maiores voluptate. Amet deleniti temporibus a sit praesentium, eius aliquam cupiditate sunt odit facilis iusto optio culpa doloribus alias.</p>
-        </article>
-    </section>
-
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-            <![endif]-->
+        <![endif]-->
+    <!--Navegador-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="index.html"><b>Moscoso Luyo Felipe </b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b class="fas fa-file-signature">BIBLIOGRAFÍA</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sitioturisticos.html"><b class="fas fa-car-side">SITIOS TURÍSTICOS</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><b class="fas fa-address-card">CONTACTO</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Espaciado-->
+    <div class="pTop50"></div>
+    <!--Contenedor Bibliografia-->
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+            </div>
+            <div class="col-10">
+                <div class="contenedor">
+                    <div class="contenido">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="Imagenes/moscoso.jpg" width="300px" height="300px" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <p class="azul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate perspiciatis beatae, error ab maxime ex quos exercitationem! Unde eos repudiandae temporibus vero praesentium nulla iste voluptatem omnis perspiciatis
+                                    recusandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"> </div>
+                </div>
+                <hr>
+            </div>
+            <!--Espaciado-->
+            <!--Contenedor Musica-->
+            <div class="musica">
+                <h2>Musica Favorita</h2>
+            </div>
+            <!--Imagenes-->
+            <div class="container">
+                <div class="row">
+                    <div class="row" id="centrar">
+                        <div class="col-sm">
+                            <img src="Imagenes/pink_floyd.jpg" width="300px" height="300px" alt="" data-toggle="modal" data-target="#exampleModal1">
+                        </div>
+                        <div class="col-sm">
+                            <img src="Imagenes/Dio.jpg" width="300px" height="300px" alt="" data-toggle="modal" data-target="#exampleModal2">
+                        </div>
+                    </div>
+                </div>
+                <!--Musica-->
+                <div class="row">
+                    <div class="row" id="centrar">
+                        <div class="col-sm">
+                            <audio controls="controls">
+                                <source src="Musica/another_brick_in_the_wall.mp3" type="audio/ogg" />
+                        </audio>
+                        </div>
+                        <div class="col-sm">
+                            <audio controls="controls">
+                                <source src="Musica/Ronnie James Dio - Dream On.mp3" type="audio/ogg" />
+                        </audio>
+                        </div>
+                    </div>
+                </div>
+                <!--Espaciado-->
+                <div class="pTop30"></div>
+                <hr>
+                <!--Footer-->
+                <footer class="page-footer font-small blue pt-4">
+                    <div class="container-fluid text-center text-md-left">
+                        <div class="row">
+                            <div id="centrar" class="col-md-6 mt-md-0 mt-3">
+                                <h5 class="text-uppercase">Moscoso Luyo Felipe</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem exercitationem iusto asperiores, pariatur odit fuga quos veritatis quis distinctio! Libero error, incidunt cum nisi facilis molestias quidem possimus
+                                    voluptatem..
+                                </p>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <div class="col-md-3 mb-md-0 mb-3">
+                                    <h5 class="text-uppercase">Redes Sociales</h5>
 
-    <script src="" async defer></script>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://www.facebook.com/felipe.moscosoluyo" class="fab fa-facebook">Facebook</a>
+                                        </li>
+                                        <li>
+                                            <a href="./contacto.html" class="fab fa-whatsapp">WhatsApp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </footer>
+                <!--footer2-->
+                <footer id="footerback" class="page-footer font-small blue">
+                    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                        <a href="https://github.com/MoscosoLuyoFelipe"> MoscosoLuyo.GitHub</a>
+                    </div>
+                </footer>
+                <!--Scripts-->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+                <script src="" async defer></script>
 </body>
 
 </html>
